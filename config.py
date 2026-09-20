@@ -21,6 +21,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 LOGGER_ID = int(getenv("LOGGER_ID", "0"))
 OWNER_ID = int(getenv("OWNER_ID", "7574330905"))
 
+API_URL = getenv("API_URL", "https://shrutibots.site") #youtube song url
+API_KEY = getenv("API_KEY", "ShrutiBotsbUwForm6Ya4Zx1AktO39") # Get This API KEY FROM OWNER
+
 # Heroku App Name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 
@@ -40,12 +43,12 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL",
-    "https://t.me/ShrutiBots"
+    "https://t.me/TeamAuro"
 )
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_CHAT",
-    "https://t.me/ShrutiSupportChat"
+    "https://t.me/UotpStoreSupport"
 )
 
 AUTO_LEAVING_ASSISTANT = getenv(
